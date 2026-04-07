@@ -32,8 +32,7 @@ Titanic-Survival-Prediction/
 │       ├── train.csv             # Eğitim verisi ve hedefler (Survived sütunu)
 │       └── test.csv              # Model tarafından tahmin edilmesi gereken test verisi
 ├── notebooks/
-│   └── Titanic_Kaggle.ipynb      # Yapılan bütün analizleri ve Topluluk (Ensemble) modelini içeren
-                                  "Ana Jupyter Notebook"
+│   └── Titanic_Kaggle.ipynb      # Yapılan bütün analizleri ve Topluluk (Ensemble) modelini içeren "Ana Jupyter Notebook"
 └── README.md                     # Projenin Markdown sunum dosyası
 ```
 
