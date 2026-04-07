@@ -25,7 +25,7 @@ Verideki kalıpları ezberlemeden (overfitting olmadan) öğrenebilmek için **Y
 ---
 
 ## 📁 Proje Klasör Yapısı
-\`\`\`text
+```text
 Titanic-Survival-Prediction/
 ├── data/
 │   └── raw/
@@ -34,7 +34,7 @@ Titanic-Survival-Prediction/
 ├── notebooks/
 │   └── Titanic_Kaggle.ipynb      # Yapılan bütün analizleri ve Topluluk (Ensemble) modelini içeren "Ana Jupyter Notebook"
 └── README.md                     # Projenin Markdown sunum dosyası
-\`\`\`
+```
 
 ---
 
@@ -42,9 +42,9 @@ Titanic-Survival-Prediction/
 Projeyi kendi bilgisayarınızda derleyip incelemek isterseniz aşağıdaki adımları izleyebilirsiniz:
 
 1. Bu projeyi bilgisayarınıza klonlayın:
-   \`\`\`bash
-   git clone https://github.com/KULLANICI_ADINIZ/Titanic-Survival-Prediction.git
-   \`\`\`
+```bash
+git clone https://github.com/muratcanyaman/Titanic-Survival-Prediction.git
+```
 2. Python ortamınızda temel Veri Bilimi kütüphanelerinin (`pandas`, `numpy`, `scikit-learn`, `xgboost`, `seaborn`, `matplotlib`) kurulu olduğundan emin olun.
 3. Jupyter Notebook veya VSCode ortamınız üzerinden `notebooks/Titanic_Kaggle.ipynb` dosyasını açın.
 4. En üst menüden **Run All (Tümünü Çalıştır)** diyerek kodun veriyi nasıl işlediğini, görselleştirdiğini ve en sonunda da **`submission.csv`** tahmin dosyasını nasıl oluşturduğunu izleyebilirsiniz.
